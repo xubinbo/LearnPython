@@ -1,4 +1,4 @@
-# _*_ coding: utf-8 _*_
+﻿# _*_ coding: utf-8 _*_
 
 """
 python_restful_api.py by xianhu
@@ -33,7 +33,7 @@ def verify_token(token):
 
 
 # 数据库相关变量声明
-engine = sqlalchemy.create_engine("mysql+pymysql://username:password@ip/db_name", encoding="utf8", echo=False)
+engine = sqlalchemy.create_engine("mysql+pymysql://root:123456@127.0.0.1/mysql", encoding="utf8", echo=False)
 BaseModel = sqlalchemy.ext.declarative.declarative_base()
 
 
